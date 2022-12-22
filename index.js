@@ -7,6 +7,7 @@ function welcome() {
   var userName = readlineSync.question("What is your name? ");
   console.log(chalkRainbow("Welcome " + userName + ", Let's play a musical quiz! "));
 }
+  
 
 
 var highScores = [
