@@ -1,2 +1,1 @@
-This is my MARK2 app.
-It's a music quiz where you will find interesting questions related to singers and their famous songs.
+Second CLI app I made with the help of nodeJS. It's a musical quiz where you'll find some interesting questions related to singers/rappers and their famous songs/raps.
