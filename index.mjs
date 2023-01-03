@@ -30,9 +30,9 @@ function play(question, answer) {
     score++;
   }
   else {
-    console.log(red("sorry, you are wrong! "));
+    console.log(chalk.red("sorry, you are wrong! "));
   }
-  console.log(yellow("your current score is: ", score));
+  console.log(chalk.yellow("your current score is: ", score));
   console.log("~~~~~~~~~~~~~~");
 }
 
