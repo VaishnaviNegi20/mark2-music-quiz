@@ -26,7 +26,7 @@ var highScores = [
 function play(question, answer) {
   var userAnswer = readlineSync.question(question);
   if (userAnswer.toUpperCase() === answer.toUpperCase()) {
-    console.log(green("you are right!"));
+    console.log(chalk.green("you are right!"));
     score++;
   }
   else {
